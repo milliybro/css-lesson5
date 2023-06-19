@@ -1,0 +1,199 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header start */
+#header {
+   padding: 94px 235px 100px 222px;
+   background-color: #F5F5F5;
+   ;
+}
+
+.header-text h1 {
+   font-size: 40px;
+   line-height: 45px;
+   text-align: center;
+   color: #000000;
+}
+
+.header-text p {
+   font-size: 15px;
+   line-height: 30px;
+   text-align: center;
+   color: #000000;
+   padding-top: 30px;
+   padding-bottom: 92px;
+
+}
+
+.header-img {
+   width: 996px;
+   height: 560px;
+   background: url(../images/main-img.png);
+   border-radius: 0px;
+}
+
+.header-btn {
+   display: flex;
+   justify-content: center;
+   padding-top: 75px;
+}
+
+.btn1 {
+   width: 189px;
+   height: 40px;
+   color: white;
+   background: #6F2CFF;
+   border-radius: 30px;
+   margin-right: 20px;
+}
+
+.btn2 {
+   width: 187px;
+   height: 40px;
+   background: #FFFFFF;
+   border-radius: 30px;
+   color: #6F2CFF;
+}
+
+/* Header end */
+
+/* Brands start */
+#brands {
+   background-color: #FFFFFF;
+   padding: 90px 195px 105px 200px;
+}
+
+#brands h2 {
+   font-size: 40px;
+   line-height: 45px;
+   text-align: center;
+   color: #000000;
+   padding-bottom: 155px;
+}
+
+.brand-cards {
+   display: flex;
+   justify-content: space-between;
+   width: 1044px;
+}
+
+.brand-card {
+   width: 319.83px;
+   height: 438px;
+   background: #F5F5F5;
+   box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+   border-radius: 0px 0px 7px 7px;
+
+}
+
+.brand-img {
+   width: 320px;
+   height: 205px;
+   background: url(.png);
+   border-radius: 7px 7px 0px 0px;
+   margin-bottom: 29px;
+}
+
+.img-logo {
+   display: block;
+   width: 150px;
+   height: 35px;
+   background: url(.png);
+   border-radius: 0px;
+   margin: 0 auto;
+
+}
+
+.brand-card p {
+   font-size: 18px;
+   line-height: 22px;
+   padding: 25px 60px 22px;
+   font-weight: bold;
+
+   text-align: center;
+   color: #6F2CFF;
+}
+
+/* Brands end */
+
+/* Industry start  */
+#industry {
+   background-color: #F5F5F5;
+   padding: 60px 270px 133px 212px;
+}
+
+.industry-text h2 {
+   font-size: 40px;
+   line-height: 45px;
+   text-align: center;
+   color: #000000;
+   padding-bottom: 20px;
+}
+
+.industry-text p {
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+   color: #000000;
+   padding-bottom: 62px;
+}
+
+.industry-cards {
+   display: flex;
+   justify-content: space-between;
+}
+
+.indus-card {
+   width: 492.86px;
+   height: 210px;
+   background: #17002E;
+   border-radius: 8px 10px 10px 8px;
+   color: #F5F5F5;
+   margin-right: 30px;
+   margin-bottom: 30px;
+}
+
+.indus-card h3 {
+   font-size: 18px;
+   line-height: 25px;
+   padding-left: 10px;
+   padding-top: 15px;
+
+}
+
+.indus-card p {
+   font-size: 15px;
+   line-height: 22px;
+}
+
+.indus-card hr {
+   width: 383px;
+   height: 2px;
+   text-align: left;
+   color: #F5F5F5;
+   margin-top: 8px;
+
+}
+
+.card-box {
+   padding: 38px 70px 3px 30px;
+
+}
+
+.card-box img {
+   padding-bottom: 22px;
+}
+
+.card-ih {
+   display: flex;
+   justify-content: start;
+
+}
+/* industry end */
